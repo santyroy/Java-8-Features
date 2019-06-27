@@ -1,0 +1,26 @@
+CONSUMER Functional Interface:
+------------------------------
+
+1. Consumer can be used in all context where an object needs to be consumed as an input,
+   and some operation needs to be performed on the object without returning any result.
+   
+2. Abstract Method: void accept(T t);
+
+
+
+PREDICATE Functional Interface:
+-------------------------------
+
+1. Predicate is an functional interface used for conditional check where we can used true/false 
+   returning functions.
+   
+2. Abstract Method: boolean test(T t);
+
+
+
+SUPPLIER Functional Interface:
+------------------------------
+
+1. Supplier can be used in all context where there is no input parameter but an output is expected.
+
+2. Abstract Method: T get();
